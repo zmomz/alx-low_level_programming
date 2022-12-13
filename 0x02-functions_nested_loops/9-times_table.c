@@ -12,8 +12,11 @@ for (i = 0; i <= 9; i++)
 	for (j = 0; j <= 9; j++)
 	{
 		n = i * j;
-		if ((i == 0) & (j == 0))
+		if (j == 0)
+		{
 			_putchar('0');
+			_putchar(',');
+		}
 		else if (n <= 9)
 		{
 			_putchar(' ');
