@@ -1,29 +1,23 @@
 #include <stdio.h>
-
 /**
- * main - print fibs from 0 to 100
- * Return: Always 0
+ * main - main block
+ * Description: computes and prints even  number < 4,000,000
+ * 5 below 1024 (excluded), followed by a new line
+ * Return: 0
  */
-
 int main(void)
 {
-	long int fib;
-	long int a = 1;
-	long int b = 2;
-	long int even_fib = 0;
+	int a = 0, b = 1, next = 0;
+	int sum = 0;
 
-	while (fib < 4000000)
+	while (next < 4000000)
 	{
-		fib = a + b;
-		if (((a % 2) == 0) & ((b % 2) == 0))
-		{
-			even_fib = fib;
-			printf("%li, ", even_fib);
-		}
+		next = a + b;
 		a = b;
-		b = fib;
+		b = next;
+		if (next % 2 == 0)
+			sum += next;
 	}
-	printf("\n");
-
+	printf("%i\n", sum);
 	return (0);
 }
