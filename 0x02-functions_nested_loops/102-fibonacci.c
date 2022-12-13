@@ -12,7 +12,7 @@ int main(void)
 	long int b = 1;
 	int counter = 0;
 
-	while (counter < 50)
+	while (counter < 49)
 	{
 		fib = a + b;
 		printf("%li, ", fib);
@@ -20,7 +20,8 @@ int main(void)
 		b = fib;
 		counter++;
 	}
-	printf("\n");
+	fib = a + b;
+	printf("%li\n", fib);
 
 	return (0);
 }
