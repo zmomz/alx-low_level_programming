@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ * _islower - check input char status (upper/lower).
  *
- * Return: Always 0.
+ * @c: - input char to be checked
+ *
+ * Return: 1 if case is lower, 0 otherwise.
  */
 
 int _islower(int c)
