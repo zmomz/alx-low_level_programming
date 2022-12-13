@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * add - adds a + b 
+ * add - adds a + b
  *
  * @a: input 1
  * @b: input 2
@@ -10,5 +10,5 @@
 
 int add(int a, int b)
 {
-	return a + b;
+	return (a + b);
 }
