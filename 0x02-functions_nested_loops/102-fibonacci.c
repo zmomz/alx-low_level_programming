@@ -7,15 +7,15 @@
 
 int main(void)
 {
-	int fib;
-	int a = 0;
-	int b = 1;
+	long int fib;
+	long int a = 0;
+	long int b = 1;
 	int counter = 0;
 
 	while (counter <= 50)
 	{
 		fib = a + b;
-		printf("%i, ", fib);
+		printf("%li, ", fib);
 		a = b;
 		b = fib;
 		counter++;
