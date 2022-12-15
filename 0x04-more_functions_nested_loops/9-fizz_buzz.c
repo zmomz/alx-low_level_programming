@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * fizzbuzz - fizz buzz fizzbuzz stupid task
- * no return
+ * Return: 0 always
  */
 
-void fizzbuzz(void)
+int fizzbuzz(void)
 {
 	int i;
 
@@ -23,4 +23,6 @@ void fizzbuzz(void)
 			printf("%i ", i);
 	}
 	putchar('\n');
+
+	return (0);
 }
