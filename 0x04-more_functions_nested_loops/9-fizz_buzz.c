@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
- * main - fizz buzz fizzbuzz stupid task
+ * fizzbuzz - fizz buzz fizzbuzz stupid task
  * no return
  */
 
-void main(void)
+void fizzbuzz(void)
 {
 	int i;
 
