@@ -1,1 +1,3 @@
-C - Functions, nested loops
+Programming with C.
+
+By Maaz - ALX

@@ -1,1 +1,3 @@
-C - Variables, if, else, while
+Programming with C.
+
+By Maaz - ALX

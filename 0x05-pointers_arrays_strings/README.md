@@ -1,1 +1,3 @@
-C pointers arrays strings
+Programming with C.
+
+By Maaz - ALX
